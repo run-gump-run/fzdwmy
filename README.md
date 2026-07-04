@@ -6,12 +6,14 @@
 
 ```
 fzdwmy/
-├── fanzhendong.html       # 樊振东主页
+├── index.html              # 入口页面（自动跳转至樊振东主页）
+├── fanzhendong.html        # 樊振东主页
 ├── wangmanyu.html          # 王曼昱主页
-├── build.py               # 轮播自动生成脚本
+├── build.py                # 轮播自动生成脚本
 ├── images/
-│   ├── fanzhendong/       # 樊振东照片（7 张）
-│   └── wangmanyu/         # 王曼昱照片（3 张）
+│   ├── fanzhendong/        # 樊振东照片（7 张）
+│   └── wangmanyu/          # 王曼昱照片（3 张）
+├── README.md
 └── LICENSE
 ```
 
@@ -27,7 +29,15 @@ fzdwmy/
 
 ## 🚀 快速开始
 
-直接用浏览器打开 `fanzhendong.html` 或 `wangmanyu.html` 即可查看。
+### 本地预览
+
+直接用浏览器打开 `index.html`、`fanzhendong.html` 或 `wangmanyu.html` 即可查看。
+
+### 部署到 EdgeOne Pages
+
+1. Fork 本仓库到你的 GitHub
+2. 在 EdgeOne Pages 中选择导入 GitHub 仓库
+3. 项目已包含 `index.html` 作为入口文件，无需额外配置，一键部署
 
 ## 🖼️ 添加/更新图片
 
